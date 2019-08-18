@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zawamil.ahmedsharhan.search.MainActivity">
+<EditText
+    android:id="@+id/ev"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <Button
+        android:onClick="search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ScrollView
+
+        android:id="@+id/scroll"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt"
+            />
+    </ScrollView>
+
+
+</LinearLayout>
